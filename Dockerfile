@@ -2,7 +2,7 @@
 FROM debian:stable
 
 # set the github runner version
-ARG RUNNER_VERSION="2.301.1"
+ARG RUNNER_VERSION="2.303.0"
 
 # update the base packages and add a non-sudo user
 RUN apt-get update -y && apt-get upgrade -y && useradd -m docker
